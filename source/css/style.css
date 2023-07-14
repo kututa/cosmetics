@@ -308,14 +308,17 @@ a {
 }
 
 .best-sell {
+  
 }
 
 .best-sell-img {
   overflow: hidden;
   position: relative;
+  
 }
 
 .best-sell-img img {
+  
   transition: 0.7s;
 }
 .best-sell-img:hover img {
@@ -327,12 +330,12 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 5px;
-  /* position normale */
+  
   top: 50px;
   right: 10px;
   padding: 0.75rem;
   transition: all 0.7s ease-in-out;
-   /*on annule la position normale */
+   
    transform: translate(100%, 100%);
 }
 
@@ -726,4 +729,24 @@ span{
 
 .swipe-container{
   text-align:center;
+}
+
+.ul li a:hover{
+  color: purple;
+}
+
+
+/* 
+.images{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+} */
+
+
+
+h6{
+  text-decoration: line-through;
+  color: red;
 }
