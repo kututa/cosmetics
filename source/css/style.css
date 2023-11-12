@@ -269,7 +269,7 @@ a {
 .swiper {
   width: 100%;
   height: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .swiper-slide {
@@ -293,7 +293,7 @@ a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  border:  2px solid red;
+  /* border:  2px solid red; */
   /* min-height: 100%; */
 
 
@@ -301,10 +301,10 @@ a {
 
 .best-sell-img img {
   display: block;
-  /* max-width: 100%; */
+  max-width: 100%;
   height: 40vh;
   object-fit: cover;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 
 }
 

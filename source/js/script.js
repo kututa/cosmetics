@@ -58,3 +58,44 @@ if (auto) {
 }
 
 
+
+
+
+
+
+  // Initialize an empty array to store the orders
+  let orders = [];
+
+  // Function to handle adding the current product to the cart
+  function addToCart() {
+    // In a real-world scenario, you would get the product information dynamically from the user or an API.
+    // For this example, we'll hard-code the product information.
+ 
+
+    let productName = "Facial Cleanser"; // Replace this with the actual product name
+    let productPrice = 1500; // Replace this with the actual product price
+    let quantity = parseInt(prompt("Enter the quantity:", "1")); // Prompt the user to enter the quantity
+
+    // Validate the quantity input
+    if (isNaN(quantity) || quantity <= 0) {
+      alert("Invalid quantity. Please enter a valid number greater than 0.");
+      return;
+    }
+
+    // Create the productInfo object with name, price, and quantity properties
+    let productInfo = {
+      name: productName,
+      price: productPrice,
+      quantity: quantity
+    };
+
+    // Add the product information to the orders array
+    orders.push(productInfo);
+
+    // Optionally, you can display a message or do further processing here
+    alert("Product added to cart!");
+
+    // Let's print the current contents of the cart to see what's in it so far.
+    console.log("Current Cart Contents:");
+    console.log(orders);
+  }
